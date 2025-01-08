@@ -1,0 +1,39 @@
+{
+    "curriculums": [
+      {
+        "regulation": "2019",
+        "viewUrl": "/path-to-view-regulation-2019",
+        "downloadUrl": "/path-to-download-regulation-2019"
+      },
+      {
+        "regulation": "2021",
+        "viewUrl": "/path-to-view-regulation-2021",
+        "downloadUrl": "/path-to-download-regulation-2021"
+      },
+      {
+        "regulation": "2023",
+        "viewUrl": "/path-to-view-regulation-2023",
+        "downloadUrl": "/path-to-download-regulation-2023"
+      }
+    ],
+    "psos": [
+      { "id": 1, "description": "Analyze engineering problems using modern tools and techniques." },
+      { "id": 2, "description": "Demonstrate technical knowledge relevant to the program." },
+      { "id": 3, "description": "Apply ethical principles in professional engineering practice." }
+    ],
+    "pos": [
+      { "id": 1, "name": "Engineering Knowledge", "content": "Apply knowledge of mathematics, science, and engineering." },
+      { "id": 2, "name": "Problem Analysis", "content": "Identify and analyze engineering problems." },
+      { "id": 3, "name": "Design and Development of Solutions", "content": "Design solutions for complex engineering problems." },
+      { "id": 4, "name": "Investigations of Complex Problems", "content": "Conduct investigations and experiments." },
+      { "id": 5, "name": "Modern Tool Usage", "content": "Use modern engineering tools for practice." },
+      { "id": 6, "name": "The Engineer and Society", "content": "Understand societal and ethical responsibilities." },
+      { "id": 7, "name": "Environment and Sustainability", "content": "Promote sustainable development." },
+      { "id": 8, "name": "Ethics", "content": "Commit to professional ethics and responsibilities." },
+      { "id": 9, "name": "Individual and Team Work", "content": "Work effectively as an individual and team member." },
+      { "id": 10, "name": "Communication", "content": "Communicate effectively on engineering activities." },
+      { "id": 11, "name": "Project Management and Finance", "content": "Manage projects and demonstrate financial literacy." },
+      { "id": 12, "name": "Life-long Learning", "content": "Engage in independent and life-long learning." }
+    ]
+  }
+  
