@@ -18,6 +18,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import LandingPage from './Landing';
 import styled from "styled-components";
 import DepartmentPage from "./Components/structure/DepartmentPage.js";
+import MBAADM from "./Components/ADM-MBA.jsx";
+import ME from "./Components/ADM-M.E.jsx";
 
 const AppContainer = styled.div`
   display: flex;
@@ -79,6 +81,30 @@ const Dept = () => {
   );
 }
 
+const MBA = () => {
+  return (
+    <div className="mba2">
+      <Head />
+      <MBAADM /> {/* This will render the NIRF component */}
+      <Contact />
+      <Chat />
+      <Footer />
+    </div>
+  );
+};
+
+const MEADM = () => {
+  return (
+    <div className="me2">
+      <Head />
+      <ME /> {/* This will render the NIRF component */}
+      <Contact />
+      <Chat />
+      <Footer />
+    </div>
+  );
+};
+
 const App = () => {
   return (
     <Router>
@@ -88,6 +114,8 @@ const App = () => {
         <Route path="/naac" element={<Naac1 />} />
         <Route path="/nba" element={<Nba1 />} />
         <Route path="/dept" element={<Dept />} />
+        <Route path="/me" element={<MEADM />} />
+        <Route path="/mba" element={<MBA />} />
       </Routes>
     </Router>
   );
