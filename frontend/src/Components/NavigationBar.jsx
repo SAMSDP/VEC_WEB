@@ -6,7 +6,7 @@ const NavigationBar = () => {
     <nav style={{ padding: '10px', background: '#333', color: '#fff' }}>
       <ul style={{ listStyleType: 'none', display: 'flex', gap: '20px', margin: 0 }}>
         <li>
-          <Link to="/home" style={{ color: '#fff', textDecoration: 'none' }}>Home</Link>
+          <Link to="/" style={{ color: '#fff', textDecoration: 'none' }}>Home</Link>
         </li>
         <li>
           <Link to="/about" style={{ color: '#fff', textDecoration: 'none' }}>About</Link>
