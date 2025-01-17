@@ -4,6 +4,7 @@ import Header from './Components/Header';
 import NavigationBar from './Components/NavigationBar';
 import Footer from './Components/Footer';
 import LandingPage from './Pages/LandingPage';
+import Home from './Pages/Home';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <div style={{ minHeight: '80vh' }}>
           <Routes>
             <Route path="/" element={<LandingPage />} />
+            <Route path="/home" element={<Home />} />
           </Routes>
         </div>
         <Footer />
