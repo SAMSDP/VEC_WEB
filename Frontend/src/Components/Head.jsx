@@ -66,8 +66,8 @@ const Head = () => {
         {main: "Admission", cod:[0, 5], cols: 1, sub: [
             {hrd: false, ttl: 'Eligibilities For UG/PG', sup: [], lnk: ''},
             {hrd: false, ttl: 'B.E/B.Tech Admission', sup: [], lnk: ''},
-            {hrd: false, ttl: 'M.E Admission', sup: [], lnk: ''},
-            {hrd: false, ttl: 'MBA Admission', sup: [], lnk: ''},
+            {hrd: false, ttl: 'M.E Admission', sup: [], lnk: '/me'},
+            {hrd: false, ttl: 'MBA Admission', sup: [], lnk: '/mba'},
             {hrd: false, ttl: 'Ph.D Programme Details', sup: [], lnk: ''}
         ]}, 
         {main: "Exams", cod:[0, 4], cols: 1, sub: [
